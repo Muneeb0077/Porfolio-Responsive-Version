@@ -399,7 +399,7 @@ body {
 
 #ContactParagraph {
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   font-size: 20px;
   font-family: Poppins, sans-serif;
   font-weight: 400;
@@ -413,8 +413,8 @@ body {
   height: 48px;
   background: white;
   border-radius: 2px;
-  border: 1px #CFD8DC solid;
-  color: #172B4D;
+  border: 1px #cfd8dc solid;
+  color: #172b4d;
   font-size: 17px;
   font-family: Poppins, sans-serif;
   font-weight: 400;
@@ -450,7 +450,7 @@ body {
   margin-left: 153px;
   margin-top: 10px;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 17px;
   font-family: Poppins, sans-serif;
   font-weight: 500;
