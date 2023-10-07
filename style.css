@@ -348,10 +348,113 @@ body {
   line-height: 24px;
   word-wrap: break-word;
   margin-top: -55px;
-  margin-left: -63px;
   display: inline-flex;
+  margin-left: 15px;
 }
 
 #LanguagesExp {
   margin-top: -60px;
+}
+
+#languageList {
+  margin-left: -10px;
+}
+
+#ContactForm {
+  width: 100vmax;
+  height: 846px;
+  background-image: url("./images/contact\ form-\ background-shape-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto 120%;
+  margin-top: -150px;
+  margin-top: -300px;
+}
+
+#ContactMetext {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+  background-image: url("./images/contact form background shapes.svg");
+  background-repeat: no-repeat;
+  background-position-x: 80px;
+  background-position-y: 80px;
+}
+
+#ContactHeading {
+  width: 801px;
+  height: 56px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+  word-wrap: break-word;
+  margin-top: 122px;
+}
+
+#ContactParagraph {
+  text-align: center;
+  color: #ebebff;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  margin-top: -30px;
+}
+
+.TextLabel {
+  width: 447px;
+  height: 48px;
+  background: white;
+  border-radius: 2px;
+  border: 1px #cfd8dc solid;
+  color: #172b4d;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  display: block;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.textArea {
+  width: 447px;
+  height: 170px;
+  background: white;
+  border-radius: 8px;
+  border: 1px #cfd8dc solid;
+  color: #b3bac5;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.buttonForm {
+  width: 142px;
+  height: 48px;
+  background: white;
+  border-radius: 8px;
+  display: block;
+  margin-left: 153px;
+  margin-top: 10px;
+  text-align: center;
+  color: #6070ff;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  word-wrap: break-word;
 }
