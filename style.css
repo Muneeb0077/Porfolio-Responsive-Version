@@ -130,6 +130,11 @@ body {
   display: inline-flex;
 }
 
+#iconLang {
+  display: flex;
+  gap: 220px;
+}
+
 #insideSecDiv2 {
   color: #7f8cff;
   font-size: 16px;
@@ -352,10 +357,6 @@ body {
   margin-left: 15px;
 }
 
-#LanguagesExp {
-  margin-top: -60px;
-}
-
 #languageList {
   margin-left: -10px;
 }
@@ -478,4 +479,522 @@ body {
   background-color: bisque;
   transition: linear 0.5s;
   scale: 1.5;
+}
+
+@media (max-width: 375px) {
+  #nav {
+    width: 365px;
+    height: 72px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    display: inline-flex;
+    background-color: white;
+  }
+
+  #section1 {
+    width: 365px;
+    height: 400px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 70px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+    background-color: white;
+    background-image: url("./images/header-shapes mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    background-position-x: -27px;
+  }
+
+  #secDiv1 {
+    width: 365px;
+    height: 122px;
+    color: #091e42;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    word-wrap: break-word;
+  }
+
+  #secDiv2 {
+    width: 365px;
+    height: 98px;
+    color: #344563;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    margin-top: -50px;
+  }
+
+  #insideSecDiv2 {
+    color: #7f8cff;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-top: 108px;
+  }
+
+  .grid-container {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .grid-item {
+    width: 365px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin-left: -29px;
+  }
+
+  #cardImage1 {
+    max-width: 350px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #cardText {
+    width: 350px;
+    font-size: 40px;
+    line-height: 28px;
+    margin-top: -4px;
+    margin-left: -15px;
+  }
+
+  #cardLabel {
+    gap: 8px;
+    margin-top: -20px;
+    margin-left: -15px;
+  }
+
+  #Canopy,
+  #BackEnd,
+  #Year {
+    font-size: 14px;
+  }
+
+  #cardParagraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: -10px;
+    width: 350px;
+    margin-left: -15px;
+  }
+
+  .programLanguages {
+    margin-top: -10px;
+  }
+
+  .LanguageDiv {
+    padding: 4px;
+  }
+
+  .LanguageText {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  #enabledImg {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .grid-container2 {
+    width: 365px;
+    height: 1200px;
+    background-color: white;
+    margin-top: -100px;
+    border-top-right-radius: 60px;
+  }
+
+  .grid-itemAbout {
+    width: 365px;
+    background: white;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 16px;
+    padding-top: 100px;
+    gap: 10px;
+  }
+
+  #aboutText {
+    width: 350px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+  }
+
+  #aboutHeading {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+  }
+
+  #Text1 {
+    width: 350px;
+    height: 33px;
+    color: #091e42;
+    font-size: 40px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+  }
+
+  #aboutParagraph {
+    width: 350px;
+    color: #344563;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-bottom: -115px;
+  }
+
+  #LanguageHeading {
+    width: 350px;
+    color: #344563;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-left: 15px;
+    display: inline-flex;
+    visibility: hidden;
+  }
+
+  #languageList {
+    margin-top: 120px;
+    width: 365px;
+  }
+
+  #contact {
+    visibility: hidden;
+  }
+
+  #ContactForm {
+    width: 360px;
+    height: 846px;
+    background-image: url("./images/Contact me.png");
+    background-repeat: no-repeat;
+    margin-top: -100px;
+  }
+
+  #ContactMetext {
+    width: 360px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+    background-image: url("./images/contact form shapes-mobile.svg");
+    background-repeat: no-repeat;
+    background-position-x: 129px;
+  }
+
+  #ContactHeading {
+    width: 350px;
+    height: 56px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+    margin-top: 122px;
+  }
+
+  #ContactParagraph {
+    text-align: center;
+    color: #ebebff;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    margin-top: -30px;
+  }
+
+  .TextLabel {
+    width: 300px;
+    height: 48px;
+    background: white;
+    border-radius: 2px;
+    border: 1px #cfd8dc solid;
+    color: #172b4d;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .textArea {
+    width: 300px;
+    height: 170px;
+    background: white;
+    border-radius: 8px;
+    border: 1px #cfd8dc solid;
+    color: #b3bac5;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  .buttonForm {
+    width: 142px;
+    height: 48px;
+    background: white;
+    border-radius: 8px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #6070ff;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    word-wrap: break-word;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  #nav {
+    width: 700px;
+    height: 72px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    display: inline-flex;
+    background-color: white;
+  }
+
+  #section1 {
+    width: 700px;
+    height: 400px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 70px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+    background-color: white;
+    background-image: url("./images/header-shapes mobile.png");
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+  }
+
+  #secDiv1 {
+    width: 500px;
+    height: 122px;
+    color: #091e42;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    word-wrap: break-word;
+  }
+
+  #secDiv2 {
+    width: 500px;
+    height: 98px;
+    color: #344563;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    margin-top: -50px;
+  }
+
+  #insideSecDiv2 {
+    color: #7f8cff;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-top: 108px;
+  }
+
+  .grid-container {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .grid-item {
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin-left: -29px;
+  }
+
+  #cardImage1 {
+    max-width: 450px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #cardText {
+    width: 700px;
+    font-size: 40px;
+    line-height: 28px;
+    margin-top: -4px;
+    margin-left: -15px;
+  }
+
+  #cardLabel {
+    gap: 8px;
+    margin-top: -20px;
+    margin-left: -15px;
+  }
+
+  #Canopy,
+  #BackEnd,
+  #Year {
+    font-size: 14px;
+  }
+
+  #cardParagraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: -10px;
+    width: 350px;
+    margin-left: -15px;
+  }
+
+  .programLanguages {
+    margin-top: -10px;
+  }
+
+  .LanguageDiv {
+    padding: 4px;
+  }
+
+  .LanguageText {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  #enabledImg {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .grid-container2 {
+    width: 700px;
+    height: 1200px;
+    background-color: white;
+    margin-top: -100px;
+    border-top-right-radius: 60px;
+  }
+
+  .grid-itemAbout {
+    width: 700px;
+    background: white;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 16px;
+    padding-top: 100px;
+    gap: 10px;
+  }
+
+  #aboutText {
+    width: 700px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+  }
+
+  #aboutHeading {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+  }
+
+  #Text1 {
+    width: 700px;
+    height: 33px;
+    color: #091e42;
+    font-size: 40px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+  }
+
+  #aboutParagraph {
+    width: 700px;
+    color: #344563;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-bottom: -115px;
+  }
+
+  #LanguageHeading {
+    width: 500px;
+    color: #344563;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-left: 15px;
+    display: inline-flex;
+    visibility: hidden;
+  }
+
+  #languageList {
+    margin-top: 120px;
+    width: 365px;
+    margin-left: -160px;
+  }
+
+  #contact {
+    visibility: hidden;
+  }
 }
