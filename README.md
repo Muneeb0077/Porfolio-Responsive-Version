@@ -14,7 +14,7 @@ This is a simple portfolio project designed to showcase your skills, projects, a
 Follow these steps to get started with this portfolio project:
 
 1. Clone this repository to your local machine:
-  git clone https://github.com/your-username/portfolio-project.git
+  git clone https://github.com/Muneeb0077/Porfolio-Responsive-Version
 
 2. Navigate to the project directory:
    cd portfolio-project
